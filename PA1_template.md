@@ -79,8 +79,8 @@ hist(steps_per_day,
      xlab = expression('Steps'), 
      main = 'Histogram of steps per day')
 ```
+[image](RepData_PeerAssessment1/figures/histogram of steps per day.png )
 
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3-1.png)
 
 #### 3. Caculate the mean and median value of steps per day
 
@@ -115,7 +115,7 @@ plot(unique(activity1$interval), steps_per_interval,
             type = 'l')
 ```
 
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-1.png)
+[image](RepData_PeerAssessment1/figures/Time series plot.png )
 
 #### 2. Find the maximum number of steps
 
@@ -186,7 +186,7 @@ steps_per_day_Modified <- tapply(activityModeifed$steps, activityModeifed$date, 
 hist(steps_per_day_Modified, main = 'Modified histogram', xlab = 'steps')
 ```
 
-![plot of chunk unnamed-chunk-9](figure/unnamed-chunk-9-1.png)
+[image](RepData_PeerAssessment1/figures/Modified histogram.png) 
 
 ```r
 mean(steps_per_day_Modified)
@@ -249,4 +249,4 @@ plot(unique(activityModeifed$interval), steps_per_interval_weekday, type = 'l',
      col = 'blue', main = 'weekday', xlab = 'Interval', ylab = 'Steps')  
 ```
 
-![plot of chunk unnamed-chunk-11](figure/unnamed-chunk-11-1.png)
+[image](RepData_PeerAssessment1/figures/weekday and weekend pattern.png) 

@@ -79,7 +79,7 @@ hist(steps_per_day,
      xlab = expression('Steps'), 
      main = 'Histogram of steps per day')
 ```
-[image](https://github.com/heyimeng97/RepData_PeerAssessment1/figures/histogram of steps per day.png )
+[image](https://github.com/heyimeng97/RepData_PeerAssessment1/blob/master/figures/histogram%20of%20steps%20per%20day.png)
 
 
 #### 3. Caculate the mean and median value of steps per day
@@ -115,7 +115,7 @@ plot(unique(activity1$interval), steps_per_interval,
             type = 'l')
 ```
 
-[image](https://github.com/heyimeng97/RepData_PeerAssessment1/figures/Time series plot.png )
+[image](https://github.com/heyimeng97/RepData_PeerAssessment1/blob/master/figures/Time%20series%20plot.png)
 
 #### 2. Find the maximum number of steps
 
@@ -186,7 +186,7 @@ steps_per_day_Modified <- tapply(activityModeifed$steps, activityModeifed$date, 
 hist(steps_per_day_Modified, main = 'Modified histogram', xlab = 'steps')
 ```
 
-[image](https://github.com/heyimeng97/RepData_PeerAssessment1/figures/Modified histogram.png) 
+[image](https://github.com/heyimeng97/RepData_PeerAssessment1/blob/master/figures/Modified%20histogram.png) 
 
 ```r
 mean(steps_per_day_Modified)
@@ -249,4 +249,4 @@ plot(unique(activityModeifed$interval), steps_per_interval_weekday, type = 'l',
      col = 'blue', main = 'weekday', xlab = 'Interval', ylab = 'Steps')  
 ```
 
-[image](https://github.com/heyimeng97/RepData_PeerAssessment1/figures/weekday and weekend pattern.png) 
+[image](https://github.com/heyimeng97/RepData_PeerAssessment1/blob/master/figures/weekday%20and%20weekend%20pattern.png) 
